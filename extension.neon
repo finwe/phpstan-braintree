@@ -1,0 +1,7 @@
+parameters:
+
+services:
+	-
+		class: Finwe\PHPStan\Braintree\Reflection\BraintreePlanPropertiesClassReflectionExtension
+		tags:
+			- phpstan.broker.propertiesClassReflectionExtension
