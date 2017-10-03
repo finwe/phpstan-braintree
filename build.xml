@@ -48,7 +48,6 @@
 			<arg value="--ignore=tests/*/data"/>
 			<arg value="-sp"/>
 			<arg path="src"/>
-			<arg path="tests"/>
 		</exec>
 	</target>
 
