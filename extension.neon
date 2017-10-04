@@ -5,3 +5,7 @@ services:
 		class: Finwe\PHPStan\Braintree\Reflection\BraintreePlanPropertiesClassReflectionExtension
 		tags:
 			- phpstan.broker.propertiesClassReflectionExtension
+	-
+		class: Finwe\PHPStan\Braintree\Reflection\BraintreeWebhookNotificationPropertiesClassReflectionExtension
+		tags:
+			- phpstan.broker.propertiesClassReflectionExtension
